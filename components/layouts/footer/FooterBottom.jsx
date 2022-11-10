@@ -9,10 +9,10 @@ function FooterBottom() {
     <div className="flex  items-center justify-between font-Fraunces">
       <div className="flex space-x-8 items-center py-10">
         <p className="flex flex-col pt-4 items-center text-green font-semibold">
-          <Image className="max-w-[140px]" src={business} />
+          <Image className="max-w-[140px]" src={business} alt="" />
           BBB rating: A+
         </p>
-        <Image className="max-w-[140px]" src={bureau} />
+        <Image className="max-w-[140px]" src={bureau} alt="" />
         <Image
           className="max-w-[200px]  rounded-tr-[25px] rounded-bl-[25px] rounded"
           src={snap}
